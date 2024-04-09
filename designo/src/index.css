@@ -30,3 +30,37 @@
   }
 
 }
+
+.bg-hero{
+    background-image: url("./assets/home/desktop/bg-pattern-hero-home.svg");
+    background-repeat: no-repeat;
+   background-position-x: left;
+   background-position-y: center;
+}
+@media (min-width: 640px){
+    .bg-hero{
+      background-position-x:right ;
+    }
+}
+
+.bg-web{
+    background-repeat: no-repeat;
+    background-image: url("./assets/home/desktop/image-web-design-small.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.bg-app{
+  background-image: url("./assets/home/desktop/image-app-design.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.bg-graph{
+  background-image: url("./assets/home/desktop/image-graphic-design.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
