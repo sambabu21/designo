@@ -28,19 +28,19 @@ export default function Header(){
                   {/* Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" */}
                     <NavLink
                         to="/company"
-                        className='nav__link text-sm sm:text-md  font-normal leading-[14px] tracking-[2px]  mx-2 '
+                        className='nav__link text-sm sm:text-md  font-normal leading-[14px] tracking-[2px]  mx-2  hover:underline'
                     >
                         OUR COMPANY 
                     </NavLink>
                     <NavLink
                         to="/locations"
-                        className='nav__link text-sm sm:text-md  font-normal leading-[14px] tracking-[2px]  mx-2 '
+                        className='nav__link text-sm sm:text-md  font-normal leading-[14px] tracking-[2px]  mx-2 hover:underline'
                     >
                         LOCATIONS
                     </NavLink>
                     <NavLink
                         to="/contact"
-                        className='nav__link text-sm sm:text-md  font-normal leading-[14px] tracking-[2px]  mx-2 '
+                        className='nav__link text-sm sm:text-md  font-normal leading-[14px] tracking-[2px]  mx-2 hover:underline'
                     >
                         CONTACT 
                     </NavLink>
