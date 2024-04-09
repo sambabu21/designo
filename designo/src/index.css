@@ -4,12 +4,29 @@
 
 :root {
   font-family: Jost, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
+ 
+  background-color: #F2F2F2;
+  color: #333136;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.spartan{
+  font-family: 'League Spartan';
+}
+
+.bg-img{
+  background-image: url("./assets/shared/desktop/bg-pattern-call-to-action.svg");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+@media (min-width: 1024px){
+  .bg-img{
+    background-position-x: right;
+  }
+
 }

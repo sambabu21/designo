@@ -1,3 +1,3 @@
 export default function Home(){
-    return <div>This is the home page</div>
+    return <div className="h-screen border">This is the home page</div>
 }
