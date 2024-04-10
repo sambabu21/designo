@@ -5,6 +5,7 @@ import WebDesign from "./Components/Web Design/Index"
 import AppDesign from "./Components/App Design/Index"
 import GraphicDesign from "./Components/Graphic Design/Index"
 import AboutUs from "./Components/Company/Index"
+import Locations from "./Components/Location/Index"
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path="/appdesign" element={<AppDesign />}/>
           <Route path="/graphicdesign" element={<GraphicDesign />}/>
           <Route path="/company" element={<AboutUs />}/>
+          <Route path="/locations" element={<Locations />}/>
         </Route>
       </Routes>
     </BrowserRouter>
