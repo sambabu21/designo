@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom'
 
 export default function FeatureSection(){
     return (
-        <div className="md:h-screen flex lg:w-[75vw] w-[90vw]  flex-col lg:flex-row justify-center items-center mx-auto gap-10 mt-20">
+        <div className=" flex lg:w-[75vw] w-[90vw]  flex-col lg:flex-row justify-between items-center mx-auto gap-12 mt-20 sm:mb-20 lg:mb-0">
             <Link 
                 to="/webdesign"
                 className="w-full h-[250px] sm:h-[200px] lg:h-[640px] border rounded-[15px] relative flex flex-col justify-center items-center bg-web">
