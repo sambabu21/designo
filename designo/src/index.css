@@ -97,3 +97,9 @@
     background-position-y:bottom ;
   }
 }
+
+.bg-contact{
+  background-image: url("./assets/contact/desktop/bg-pattern-hero-desktop.svg");
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+}
