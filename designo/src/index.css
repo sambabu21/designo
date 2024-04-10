@@ -41,7 +41,8 @@
     .bg-hero{
       background-position-x:right ;
     }
-}
+    
+  } 
 
 .bg-web{
     background-repeat: no-repeat;
@@ -63,4 +64,21 @@
   background-size: cover;
   background-repeat: no-repeat;
 
+}
+
+.bg-about{
+  background-image: url("./assets/about/desktop/bg-pattern-hero-about-desktop.svg");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y:center ;
+  background-size: contain; 
+  
+}
+@media (min-width:640px){
+  .bg-about{
+    background-image: url("./assets/about/desktop/bg-pattern-hero-about-desktop.svg");
+    background-position-x: left;
+    background-position-y:bottom;
+    background-size:auto;
+  }
 }
