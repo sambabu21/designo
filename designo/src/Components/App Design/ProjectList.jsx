@@ -33,7 +33,7 @@ export default function ProjectList(){
     },[])
 
     return (
-        <div className="w-[90vw] lg:w-[75vw] my-32 mx-auto overflow-clip flex gap-10 flex-wrap">
+        <div className="w-[90vw] lg:w-[75vw] my-32 mx-auto overflow-clip flex gap-10 justify-between flex-wrap">
           {
                 projectArr.map((project,i)=>{
                     return (
