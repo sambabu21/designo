@@ -68,27 +68,24 @@ export default function Header(){
           <Disclosure.Panel className="md:hidden fixed top-24 w-full h-[235px] z-10 bg-[#1D1C1E] pb-2">
             <div className="px-[24px] py-[48px] flex flex-col justify-center gap-[32px]">
               {/* Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" */}
-              <Disclosure.Button
-                as="a"
-                href="/company"
+              <Link
+                to="/company"
                 className="block text-[24px] text-white tracking-[2px] leading-[25px]"
               >
                 OUR COMPANY
-              </Disclosure.Button>
-              <Disclosure.Button
-                as="a"
-                href="/locations"
+              </Link>
+              <Link
+                path="/locations"
                 className="block text-[24px] text-white tracking-[2px] leading-[25px]"
               >
                 LOCATIONS
-              </Disclosure.Button>
-              <Disclosure.Button
-                as="a"
-                href="/contact"
+              </Link>
+              <Link
+                path="/contact"
                 className="block text-[24px] text-white tracking-[2px] leading-[25px]"
               >
                 CONTACT
-              </Disclosure.Button>
+              </Link>
               
             </div>
           
