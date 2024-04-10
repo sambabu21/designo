@@ -11,7 +11,9 @@ export default function Footer(){
                 <p className="text-white leading-[26px] mt-5 mb-7 lg:mb-0 text-center">Ready to take it to the next level? Contact us today and find out how our expertise can help your business grow.</p>
             </div>
             <div className="w-3/4 lg:w-1/2 flex justify-center lg:justify-end items-center">
-                <button className="w-[152px] h-[56px] bg-white font-medium rounded-[8px] tracking-[1px] hover:bg-[#FFAD9B] hover:text-white">GET IN TOUCH</button>
+                <Link to="/contact">
+                    <button className="w-[152px] h-[56px] bg-white font-medium rounded-[8px] tracking-[1px] hover:bg-[#FFAD9B] hover:text-white">GET IN TOUCH</button>
+                </Link>
             </div>
 
         </div>

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import HeroPhone from "../../assets/home/desktop/image-hero-phone.png"
 
 export default function Hero(){
@@ -6,7 +7,9 @@ export default function Hero(){
             <div className="lg:w-1/2  flex flex-col items-center lg:items-start  mt-20 text-center lg:text-left ">
                 <h1 className="text-[32px] sm:text-[48px] font-medium text-white sm:leading-[50px] leading-[36px]">Award-winning custom designs and digital branding solutions</h1>
                 <p className="text-white leading-[26px] mt-8 px-5 lg:px-0">With over 10 years in the industry, we are experienced in creating fully responsive websites, app design, and engaging brand experiences. Find out more about our services.</p>
-                <button className="w-[152px] h-[56px] mt-8 bg-white font-medium rounded-[8px] tracking-[1px] hover:bg-[#FFAD9B] hover:text-white ">LEARN MORE</button>
+                <Link to="/company">
+                    <button className="w-[152px] h-[56px] mt-8 bg-white font-medium rounded-[8px] tracking-[1px] hover:bg-[#FFAD9B] hover:text-white ">LEARN MORE</button>
+                </Link>
             </div>
             <div className="absolute lg:-right-[80px] lg:-bottom-[220px] sm:-bottom-[380px] -bottom-[200px]">
                 <img src={HeroPhone} />
