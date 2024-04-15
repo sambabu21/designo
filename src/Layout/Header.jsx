@@ -75,13 +75,13 @@ export default function Header(){
                 OUR COMPANY
               </Link>
               <Link
-                path="/locations"
+                to="/locations"
                 className="block text-[24px] text-white tracking-[2px] leading-[25px]"
               >
                 LOCATIONS
               </Link>
               <Link
-                path="/contact"
+                to="/contact"
                 className="block text-[24px] text-white tracking-[2px] leading-[25px]"
               >
                 CONTACT
